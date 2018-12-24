@@ -6,16 +6,30 @@ body{
 
 /* main page */
 
-.mainHeaderContainer{
-    height: 40vh;
-    position: relative;
+nav{
+    width: 100%;
+    background-color: black; 
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
 }
 
-.mainHeaderImage{
-    height: 250px;
-    width: 270px;
+nav a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav a:hover{
+
+}
+
+.logoImage{
+    padding: 0px;
+    height: 40px;
+    width: 70px;
+}
+
+.logoAnchor{
+    padding: 0px;
+    height: 40px;
+    width: 70px;
 }
